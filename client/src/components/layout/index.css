@@ -1,0 +1,11 @@
+.print:hover {
+  border: 1px solid darkorange;
+  color: darkorange;
+  transition: all 0.3s;
+}
+
+.print {
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 8px 0;
+}

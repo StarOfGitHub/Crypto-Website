@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { logoutUser } from "../../actions/authActions";
+import './index.css';
 
 class Transfer extends Component {
   onLogout = (e) => {
@@ -75,8 +76,7 @@ class Transfer extends Component {
             <div className="row mt-4">
               <div className="col-md-3"></div>
               <div
-                className="col-md-3 d-flex align-items-center justify-content-center"
-                style={{ cursor: "pointer" }}
+                className="col-md-3 d-flex align-items-center justify-content-center print"
               >
                 <i
                   className="fa fa-print pr-2"
@@ -85,8 +85,7 @@ class Transfer extends Component {
                 <span style={{ fontSize: "22px" }}>Print Swift Copy</span>
               </div>
               <div
-                className="col-md-3 d-flex align-items-center justify-content-center"
-                style={{ cursor: "pointer" }}
+                className="col-md-3 d-flex align-items-center justify-content-center print"
               >
                 <i
                   className="fa fa-print pr-2"
