@@ -15,6 +15,11 @@ import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/layout/Dashboard";
 import Connect from "./components/layout/Connect";
 import Transfer from "./components/layout/Transfer";
+import Header from "./components/layout/Header";
+import Payout from "./components/layout/Payout";
+import Addfund from "./components/layout/Addfund";
+import Withdraw from './components/layout/Withdraw';
+
 
 if (localStorage.jwtToken) {
   const token = localStorage.jwtToken;
@@ -39,8 +44,10 @@ function App() {
           <Route path="/login" component={Login} exact />
           <Switch>
             <PrivateRoute exact path="/dashboard" component={Dashboard} />
-            <PrivateRoute exact path="/connect" component={Connect} />
+            <PrivateRoute exact path="/payout" component={Payout} />
+            <PrivateRoute exact path="/addfund" component={Addfund} />
             <PrivateRoute exact path="/transfer" component={Transfer} />
+            <PrivateRoute exact path="/withdraw" component={Withdraw} />
           </Switch>
         </div>
       </Router>

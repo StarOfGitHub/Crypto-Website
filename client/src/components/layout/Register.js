@@ -55,7 +55,7 @@ class Register extends Component {
     return (
       <div className="container-fluid">
         <div className="row align-items-center" style={{ height: "100vh" }}>
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="d-flex justify-content-center">
               <img
                 style={{ width: "80%", borderRadius: "10px" }}
@@ -64,7 +64,7 @@ class Register extends Component {
               />
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="form-box" style={{ width: "80%" }}>
               <form className="signup-form" onSubmit={this.onSubmit}>
                 <div>

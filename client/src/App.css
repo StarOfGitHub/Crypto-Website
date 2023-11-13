@@ -1,6 +1,17 @@
+.container-fluid {
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
 body {
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    background-color: #33286B;
+    padding: 0;
+    margin: 0;
 }
 .form-control {
     min-height: 41px;
@@ -75,4 +86,312 @@ body {
 .name-lable {
   text-decoration: underline;
   color: yellowgreen;
+}
+
+.head {
+    background-color: #4A417C;
+    margin: 0;
+}
+
+/* .totalbody {
+    padding: 0;
+} */
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+
+.sidebar {
+    border: 1px solid white;
+    margin-right: 40px;
+}
+
+.sidebar ul {
+    padding-left: 100px;
+}
+
+.sidebar ul li {
+    padding-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    color: #5fcaba;
+}
+
+.sidebar ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.balance {
+    background-color: rgb(255,84,0);
+    position: absolute;
+}
+
+.balance img {
+    width: 100%;
+}
+
+.balance-card {
+    position: relative;
+    width: 100%;
+}
+
+.balance-pic img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.second-balance {
+    position: absolute;
+    width: 100%;
+}
+
+.balnace-text1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.balnace-text2 {
+    padding-left: 50px;
+}
+
+
+
+
+
+
+.welcome-text {
+    margin-top: 50px;
+}
+
+.paycard {
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+}
+
+.wallet img {
+    width: 220px;
+    height: 220px;
+}
+
+.wallet-pic img {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 140px;
+    height: 140px;
+}
+
+.wallet {
+    background-color: #4A417C;
+    
+}
+
+.payout-card {
+    margin-left: 30px;
+    position: relative;
+    margin-left: 0px;
+}
+
+.wallet {
+    position: absolute;
+}
+
+.second-wallet {
+    position: absolute;
+}
+
+.paybutton {
+    background-color: rgb(255,84,0);
+    color: white;
+    width: 64%;
+    font-size: 10px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.modal-content {
+    background-color: #6610f2;
+}
+
+.modal-title {
+    font-weight: bolder;
+}
+
+.modal-body {
+    color: 007bff;
+}
+
+.card-theme {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.cards {
+    float: left;
+    width: 20%;
+    height: 250px;
+}
+
+
+.mainbox {
+    background-color: #33286B;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.inputboxs {
+    background-color: #4A417C;
+    padding: 30px 70px;
+    margin-right: 10px;
+}
+
+.submit {
+    margin-top: 20px;
+    padding: 10px 595px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wallet1 img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.wallet-pic1 {
+    margin: 0 90px;
+    margin-top: 20px;
+}
+
+.wallet-pic1 img {
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 140px;
+    height: 140px;
+}
+
+.wallet1 {
+    background-color: #4A417C;
+    
+}
+
+.payout-card1 {
+    margin-left: 30px;
+    position: relative;
+    margin-left: 0px;
+}
+
+.wallet1 {
+    position: absolute;
+}
+
+.second-wallet1 {
+    position: absolute;
+}
+
+.textbox  {
+    display: flex;
+}
+
+.texts {
+text-align: center;
+margin-left: 100px;
+}
+
+.textstyles {
+    margin-top: 25px;
+}
+
+.prices {
+    margin-left: 70px;
+}
+
+.price1 {
+    margin-top: 25px;
+    color: green;
+}
+
+.price2 {
+    color: red;
+    margin-top: 25px;
+}
+
+
+.wallet3 {
+    background-color: #4A417C;
+    position: absolute;
+    margin-left: 40px;
+    width: 100%;
+    
+}
+
+.payout-card3 {
+    margin-left: 30px;
+    position: relative;
+    margin-left: 0px;
+}
+
+
+.second-wallet3 {
+    position: absolute;
+}
+
+.wallet3 img {
+    width: 100%;
+    height: 400px;
+}
+
+.addtitle {
+    padding-left: 210px;
+    margin-top: 30px;
+}
+
+.addwithdraw {
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+
+.withdrawinput {
+    font-size: 5px;
+    padding: 15px;
+    width: 520px;
+}
+
+.confirm {
+    margin-left: 140px;
+    padding: 10px 210px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
 }

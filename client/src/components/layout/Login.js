@@ -18,13 +18,13 @@ class Login extends Component {
   }
   componentDidMount() {
     if (this.props.auth.isAuthenticated) {
-      this.props.history.push("/connect");
+      this.props.history.push("/dashboard");
     }
   }
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.auth.isAuthenticated) {
-      this.props.history.push("/connect");
+      this.props.history.push("/dashboard");
     }
 
     if (nextProps.errors) {
@@ -52,7 +52,7 @@ class Login extends Component {
     return (
       <div className="container-fluid">
         <div className="row align-items-center" style={{ height: "100vh" }}>
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="d-flex justify-content-center">
               <img
                 style={{ width: "80%", borderRadius: "10px" }}
@@ -61,7 +61,7 @@ class Login extends Component {
               />
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="form-box" style={{ width: "80%" }}>
               <form className="login-form" onSubmit={this.onSubmit}>
                 <div>

@@ -8,21 +8,21 @@ class Landing extends Component {
     return (
       <div className="container-fluid">
         <div className="row align-items-center" style={{ height: "100vh" }}>
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="d-flex justify-content-center">
               <img
-                style={{ width: "80%", borderRadius: "10px" }}
+                style={{ borderRadius: "10px", width: "100%"}}
                 src={imagePath}
                 alt="landing"
               />
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="container-fluid text-center" style={{ width: "80%" }}>
               <div className="row">
                 <div className="col-sm-12">
                   <h1>
-                    Flush Funds App
+                    Crypto Exchange Website
                   </h1>
                 </div>
               </div>
